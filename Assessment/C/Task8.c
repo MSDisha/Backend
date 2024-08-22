@@ -1,6 +1,6 @@
 //Find number of blank spaces and digits 
 #include<stdio.h>
-int main(){
+main(){
    char str[50];
    int i,digit=0,space=0;
    printf("enter string :");

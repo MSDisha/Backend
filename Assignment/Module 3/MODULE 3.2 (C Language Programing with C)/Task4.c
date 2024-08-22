@@ -3,11 +3,11 @@
 //2. Vowel or Consonant using switch case 
 #include<stdio.h>
 main(){
-    int day,ch;
-    printf("Enter a number: ");
-    scanf("%d", &day);
+    int day,ch;	//data members
+    printf("Enter a number: ");	
+    scanf("%d", &day);	//input days 
 
-    switch(day) {
+    switch(day) {	//condition
         case 1:
             printf("Monday\n");
             break;
@@ -35,9 +35,9 @@ main(){
     }
 
     printf("Enter an alphabet: ");
-    scanf(" %c", &ch);
+    scanf(" %c", &ch);	//input alphabets
 
-    switch(ch) {
+    switch(ch) {	//condition
         case 'a':
         case 'e':
         case 'i':

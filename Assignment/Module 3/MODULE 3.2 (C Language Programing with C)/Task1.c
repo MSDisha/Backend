@@ -3,16 +3,16 @@
 #include<stdio.h>
 main()
 {
-    int n1,n2,add,sub,mul,div,mod;
+    int n1,n2,add,sub,mul,div,mod; //data members 
     printf("Enter Number 1\n");
-    scanf("%d", &n1);
+    scanf("%d", &n1);	//input first number 
     printf("Enter Number 2\n");
-    scanf("%d", &n2);
-    add= n1 + n2 ;
-    sub= n1 - n2;
-    mul= n1 * n2;
-    div= n1/n2;
-    mod=n1%n2;
+    scanf("%d", &n2);	//input second number 
+    add= n1 + n2 ;	//addition
+    sub= n1 - n2;	//subtraction
+    mul= n1 * n2;	//multiplication
+    div= n1/n2;	 	//division
+    mod=n1%n2;		//modulo
     printf("Addition = %d\n",add);
     printf("Subtraction = %d\n",sub);
     printf("Multiplication = %d\n",mul);

@@ -6,8 +6,8 @@
 
 #include<stdio.h>
 main(){
-	printf("Disha more");
-	printf("\n02-12-2003");
-	printf("\n20");	
-	printf("\n49,XYZ, near ABCD , Opp PQR  , Gandhinagar");
+	printf("Disha more"); //name
+	printf("\n02-12-2003"); //Birth date
+	printf("\n20");	//Age
+	printf("\n49,XYZ, near ABCD , Opp PQR  , Gandhinagar");  //Address
 }

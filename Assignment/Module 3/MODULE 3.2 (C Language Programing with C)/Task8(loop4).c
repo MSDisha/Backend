@@ -1,14 +1,15 @@
 //Looping programs:  
-// How many Odd#include <stdio.h>
+// How many Odd
+#include <stdio.h>
 
 main() {
-    int n,i,count=0;
+    int n,i,count=0;	//data member
     printf("Enter 10 numbers:\n");
 
     for (i = 0; i < 10; i++) {
-        printf("Enter number %d: ", i + 1);
+        printf("Enter number %d: ", i + 1);	//input 10 numbers
         scanf("%d", &n);
-         if(n%2!=0) {
+         if(n%2!=0) {	//Odd numbers if remainder is not 0
             count++;
         }
     }

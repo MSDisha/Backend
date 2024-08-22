@@ -3,13 +3,13 @@
 
 int main() {
     int n;
-    char *res;
+    char *res;	//data members
 
     printf("Enter an integer: ");
-    scanf("%d", &n);
+    scanf("%d", &n);	//input numbers 
 
-    res= (n% 2 == 0) ? "even" : "odd";
+    res= (n% 2 == 0) ? "even" : "odd";	//odd and even by ternary operator
 
-    printf("The number is %s\n", res);
+    printf("The number is %s\n", res);	
 }
 

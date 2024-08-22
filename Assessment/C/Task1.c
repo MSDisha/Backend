@@ -1,5 +1,4 @@
-//WAP to find reverse of string using recursion
-// C program to reverse a string 
+//reverse a string
 # include <stdio.h>  
 main()  
 {  
@@ -9,4 +8,5 @@ main()
       
     printf (" \n After the reverse of a string: %s ", strrev(str));  //reversed string
 }  
+
 

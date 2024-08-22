@@ -3,12 +3,12 @@
 
 #include<stdio.h>
 main(){
-	int a=10, b=5; 
-	printf("A : %d",a);
-	printf("\nB : %d",b);
-	printf("\nAddition: %d",a+b);
-	printf("\nSubtraction: %d",a-b);
-	printf("\nMultiplication: %d",a*b);
-	printf("\nDivision: %d",a/b);
-	printf("\nModulus: %d",a%b);
+	int a=10, b=5; //data members
+	printf("A : %d",a);	
+	printf("\nB : %d",b);	
+	printf("\nAddition: %d",a+b);  //addition
+	printf("\nSubtraction: %d",a-b);	//subtraction,
+	printf("\nMultiplication: %d",a*b);	//multiplication
+	printf("\nDivision: %d",a/b);	//division
+	printf("\nModulus: %d",a%b);	//modulo
 }

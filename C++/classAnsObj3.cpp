@@ -4,7 +4,7 @@ class A{
 	public:
 		func1(){
 			int a,b;
-			cout<<"Enter a number a and b : ";
+			cout<<"Enter a number a and b : "<<endl;
 			cin>>a>>b;
 			cout<<"Addition is : "<<a+b<<endl;
 		}
@@ -13,7 +13,7 @@ class B{
 	public:
 		func2(){
 			int a,b;
-			cout<<"Enter a number a and b : ";
+			cout<<"Enter a number a and b : "<<endl;
 			cin>>a>>b;
 			cout<<"Subtraction is : "<<a-b<<endl;
 		}
@@ -22,7 +22,7 @@ class C{
 	public:
 		func3(){
 			int a,b;
-			cout<<"Enter a number a and b : ";
+			cout<<"Enter a number a and b : "<<endl;
 			cin>>a>>b;
 			cout<<"Multiplication is : "<<a*b<<endl;
 		}

@@ -22,10 +22,22 @@ class C:public A{
 		}
 		
 };
+class D:public A{
+	public:
+		Hello2(){
+			cout<<"Enter a: "<<endl;
+			cin>>a;
+			cout<<"Enetr b: "<<endl;
+			cin>>b;
+			cout<<"addtion: "<<a+b<<endl;
+		}
+};
 
 main(){
 	B obj1;
 	C obj2;
+	D obj3;
 	obj1.Hello();
 	obj2.Hello1();
+	obj3.Hello2();
 }

@@ -29,7 +29,7 @@ main()
     cout<<"Area of Rectangle: "<<area(len,bdth);
 
     // Area of Triangle
-    cout << "Enter base and height of the triangle: ";
+    cout << "Enter base and height of the triangle: "<<endl;
     cin >> b>> h;
     cout << "Area of Triangle: " << area(b, h, 'T')<<endl;
 

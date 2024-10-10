@@ -25,7 +25,7 @@ public:
         cin >> matches;
         cout << "Enter total runs scored: ";
         cin >> totalRuns;
-        cout << "Enter best performance (highest score): ";
+        cout << "Enter best performance: ";
         cin >> bestPerformance;
     }
 

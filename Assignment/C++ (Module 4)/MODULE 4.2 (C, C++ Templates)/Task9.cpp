@@ -38,7 +38,7 @@ main() {
     cout<<"Enter elements for the second matrix: "<<endl;
     m2.input();
     m3 = m1 + m2;	// Adding the two matrices using the overloaded + operator
-    cout<<"Result: "<<endl;	// Display the result
+    cout<<"Result: ";	// Display the result
     m3.display();
 
 }

@@ -17,19 +17,17 @@ class Numbers{
     }
 };
 	swapNumbers(Numbers& num) {
-    num.a = num.a + num.b;  // a = a + b
-    num.b = num.a - num.b;  // b = (a + b) - b = a
-    num.a = num.a - num.b;  // a = (a + b) - a = b
+    num.a= num.a+num.b;  // a = a + b
+    num.b= num.a-num.b;  // b = (a + b) - b = a
+    num.a= num.a-num.b;  // a = (a + b) - a = b
 }
 
 int main() {
     Numbers num;
     num.setValues(10, 20);
-
     cout << "Before swapping:" << endl;
     num.display();
     swapNumbers(num);
-
     cout << "After swapping:" << endl;
     num.display();
 }

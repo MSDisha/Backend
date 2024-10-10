@@ -4,22 +4,22 @@
 #include <iostream>
 using namespace std;
 // addition of two integers
-	operate(int a, int b) {
+	operate(int a, int b) {	//overloading
     return a + b;
 }
 
 // subtraction of two integers
-	operate(int a, int b, char o) {
+	operate(int a, int b, char o) {	//overloading
     return a - b;
 }
 
 // multiplication of two floating-point numbers
-	operate(float a, float b) {
+	operate(float a, float b) {	//overloading
     return a * b;
 }
 
 //division of two doubles
-	operate(double a, double b) {
+	operate(double a, double b) {	//overloading
     if (b != 0) {
         return a / b;
     } else {

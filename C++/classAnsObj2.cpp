@@ -4,7 +4,7 @@ class A{
 	public:
 		int a,b;
 		show(){
-			cout<<"Enter a number a and b : ";
+			cout<<"Enter number a and b : ";
 			cin>>a>>b;
 		}
 		func1(){

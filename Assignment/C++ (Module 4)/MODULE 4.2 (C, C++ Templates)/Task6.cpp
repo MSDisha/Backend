@@ -3,7 +3,6 @@
 //salary. Write necessary member function to initialize, read and write data. 
 //Write also Main function (Multiple Inheritance) 
 #include <iostream>
-#include <string>
 using namespace std;
 
 // aprent class: Person
@@ -55,7 +54,7 @@ class Teacher : public Person {
     }
     displayT() {
     	displayP(); 
-        cout << "Salary: $" << salary << endl;
+        cout << "Salary: " << salary << endl;
     }
 };
 

@@ -1,4 +1,5 @@
 //Write a program to concatenate the two strings using Operator Overloading 
+//Doubt
 #include <iostream>
 using namespace std;
 
@@ -22,8 +23,8 @@ class String {
         //result.str = str + s.str;  // Concatenate using + operator
         //return result;
         String result;
-        strcpy(result.str, str);       // Copy the first string
-        strcat(result.str, s.str);     // Concatenate the second string
+        strcpy(result.str, str);       
+        strcat(result.str, s.str); 
         return result;
     }
    	display() {

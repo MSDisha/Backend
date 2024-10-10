@@ -1,3 +1,5 @@
+//Constructors are methods that are automatically executed every time you create an object.
+
 #include<iostream>
 using namespace std;
 class Hello{

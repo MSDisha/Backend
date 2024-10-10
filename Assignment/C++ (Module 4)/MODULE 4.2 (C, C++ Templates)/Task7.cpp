@@ -58,8 +58,7 @@ class Result:public Test {
 int main() {
     // Create an object of the derived class Result
     Result s;
-
-    // Input data
+	// Input data
     s.RollNum();  
     s.Marks();      
     s.Total();

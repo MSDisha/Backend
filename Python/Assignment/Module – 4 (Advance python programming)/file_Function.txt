@@ -1,0 +1,5 @@
+What is File function in python? What is keywords to create and write file.  
+-File functions are used to perform operations like creating, reading, writing, and closing files. Here's an overview of file handling and the keywords used to create and write files:
+1.open() function : Specifies the mode in which the file should be opened (e.g., read, write, append).
+2.write() function : To write data to a file, use the write() function.The write() function is used to add text to the file.
+3. read() function : Open a file for reading (default mode).

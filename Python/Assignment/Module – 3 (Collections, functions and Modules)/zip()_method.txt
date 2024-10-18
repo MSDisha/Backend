@@ -1,0 +1,7 @@
+ Why Do You Use the Zip () Method in Python? 
+The zip() method in Python is a built-in function that is used to combine two or more iterables (like lists, tuples, or strings) into a single iterable of tuples.
+Combining Data:
+keys = ['name', 'age', 'city']
+values = ['Disha', 20, 'New York']
+result_dict = dict(zip(keys, values))
+print(result_dict)   # Output: {'name': 'Disha', 'age': 20, 'city': 'New York'}

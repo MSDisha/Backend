@@ -1,0 +1,7 @@
+ Differentiate between append () and extend () methods? 
+append():
+-Adds a single element to the end of the list.
+-The entire element (whether it's a single value or a list) is added as a single item.
+extend():
+-Extends the list by adding all elements of another iterable (e.g., a list, tuple, or set) to the end of the current list.
+-It unpacks the elements of the passed iterable and adds them individually to the list.

@@ -1,0 +1,12 @@
+How Many Basic Types Of Functions Are Available In Python?  
+Built-in Functions:
+ functions that are pre-defined in Python and can be used directly without the need for any imports. Examples include print(), len(), sum(), max(), min(), and type().
+
+User-defined Functions:
+functions that you create yourself to perform specific tasks. They are defined using the def keyword. Example:
+def my_function():
+    print("Hello, World!")
+
+Lambda Functions:
+These are small functions defined using the lambda keyword. They can take any number of arguments but can only have one expression.Example:
+square = lambda x: x * x
